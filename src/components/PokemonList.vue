@@ -26,7 +26,7 @@
       >
        <a
         v-show="!favorites.includes(pokemon.name)"
-        class="bg-red-400 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
+        class="bg-blue-400 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
         :class="{ 'is-disabled': favoriteListLength === 10 }"
         @click="setFavorites(pokemon.name), playPokemonCry(index + 1)"
       >Agregar Favorito</a>

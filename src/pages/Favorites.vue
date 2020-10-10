@@ -1,13 +1,13 @@
 <template>
   <div>
     <h1 class="overview-favorite-pokemon__title">
-      Your favorite Pokémon
+      Tus Pokemons Favoritos
     </h1>
     <router-link
-      class="nes-btn"
+      class="bg-red-400 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
       to="/"
     >
-      Go back
+      Regresar
     </router-link>
     <div class="overview-favorite-pokemon">
       <pokemon-card

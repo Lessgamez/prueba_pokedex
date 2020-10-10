@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-full md:w-1/3 xl:w-2/5 p-24 flex flex-col shadow-inner bg-gray-100">
     <h2>Elige tus Pokemos Favoritos</h2>
     <p v-if="favoriteListLength < maximumList">
       Te ayudamos a Elegir? <button
@@ -15,10 +15,7 @@
         :key="index"
         class=""
       >
-      <!--  <img
-          src="../assets/pokeball.png"
-          alt="pokeball"
-        >-->
+     
         {{ pokemonName }}
       </p>
     </template>
@@ -28,6 +25,9 @@
     <p v-if="favoriteListLength > 9">
       Tu Lista Esta LLena!
     </p>
+    <br>
+    <div class="">
+      
     <p v-if="favoriteListLength > 9">
       ¿Quieres<button
         class="bg-red-400 text-white"
@@ -35,7 +35,9 @@
       >
         ELIMINAR
       </button> la lista?
-    </p><hr>
+    </p>
+    </div>
+     <br>
     <div>
     <router-link
       v-if="favoriteListLength > 0"

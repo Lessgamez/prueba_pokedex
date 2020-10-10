@@ -3,7 +3,7 @@
        <nav  class="w-full z-30 top-0 py-1 bg-gray-500 text-center">
         <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 py-3">
             <div class="order-1 md:order-2 align-middle ">
-                <img src= "@/assets/img/logo.svg" alt="pokémon">
+                <img src= "@/assets/img/logo.svg" >
                         
             </div>         
         </div>
@@ -46,7 +46,7 @@ export default {
     methods: {
         async getPokemonData() {
             const data = await fetch(
-                'https://pokeapi.co/api/v2/pokemon?limit=151'
+                'https://pokeapi.co/api/v2/pokemon?limit=150'
             )
             const json = await data.json()
             return json.results
