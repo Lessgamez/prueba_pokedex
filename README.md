@@ -4,7 +4,7 @@
 ```
 npm install
 ```
-###Install
+Install
 ```
 npm install vue-router
 ```
