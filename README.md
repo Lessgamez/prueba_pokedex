@@ -4,7 +4,11 @@
 ```
 npm install
 ```
-
+Install
+```
+npm install vue-router
+npm install tailwindcss
+```
 ### Compiles and hot-reloads for development
 ```
 npm run serve
