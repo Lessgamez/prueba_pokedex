@@ -1,5 +1,5 @@
 # pokedex
-
+#desarrollado en VUE JS
 ## Project setup
 ```
 npm install
